@@ -97,6 +97,7 @@ p{
   -webkit-transition: all ease 0.4s;
   -moz-transition: all ease 0.4s;
   box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.22);
+  text-decoration: none;
 }
 
 .site-btn:hover{
@@ -910,6 +911,11 @@ header.type-1 nav ul li.hassub .submenu li:last-child{
     display: inline;
     font-weight: 500;
     border: 0;
+    text-decoration: none;
+}
+
+#github {
+    color: white;
 }
 
 .portfolio.type-1{

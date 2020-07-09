@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head> 
-<title>Penne Personal Portfolio Template</title>
+<title>Turner Millsaps Portfolio</title>
 <meta charset="UTF-8">
 <meta name="description" content="Rize Portfolio Template">
 <meta name="keywords" content="personal, portfolio">
@@ -25,7 +25,8 @@
 
 	<!-- Font icons -->
     <link rel="stylesheet" href="icon-fonts/fontawesome-5.0.6/css/fontawesome-all.min.css"/>
-	<link rel="stylesheet" href="icon-fonts/etlinefont/style.css"/>
+    <link rel="stylesheet" href="icon-fonts/etlinefont/style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
 
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
@@ -120,26 +121,34 @@
 			</div>
 		</div>
         <!-- What we do -->
-        <h2 class="title">Skills:</h2>
-		<div class="container top_120 wow fadeInUp" data-wow-delay="1.5s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text wow fadeInUp top_15" data-wow-delay="1.5s">
+                    <div class="section-title">
+                        <h2 class="title">Skills:</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div class="container top_30 wow fadeInUp" data-wow-delay="1.5s">
 			<div class="owl-carousel owl-theme features" data-items-desktop="3" data-items-desktop-small="3" data-items-tablet="2" data-items-tablet-small="1"  data-wow-delay="0.4s">
 				<div class="item service text-center">
-	                <i class="icon-desktop"></i>
+	                <i class="devicon-postgresql-plain"></i>
 	                <h3 class="title top_15 bottom_15">PostgreSQL</h3>
 	                <p>Through my current working experience, I've developed a strong familiarity with the Postgres command line and a working knowledge of relational databases.</p>
 	            </div>
 				<div class="item service text-center">
-	                <i class="icon-tools"></i>
+	                <i class="devicon-javascript-plain"></i>
 	                <h3 class="title top_15 bottom_15">Javascript</h3>
 	                <p>At DigitalCrafts, I learned the server side of Web Development using NodeJS which led to my enthusiasm for backend work.</p> 
 	            </div>
 				<div class="item service text-center">
-	                <i class="icon-paintbrush"></i>
+	                <i class="devicon-react-original"></i>
 	                <h3 class="title top_15 bottom_15">ReactJS</h3>
 	                <p>Along with Node, I've worked several projects that focus heavily on ReactJS for fluid and responsive frontend applications.</p> 
 	            </div>
 				<div class="item service text-center">
-	                <i class="icon-phone"></i>
+	                <i class="devicon-linux-plain"></i>
 	                <h3 class="title top_15 bottom_15">Linux</h3>
 	                <p>As a Systsems Engineer, I work primarily in a Redhat environment which has awarded me versatility in the Linux command line. Additionally, I've written several Bash scripts for process automation and convenience.</p> 
 	            </div>
@@ -157,31 +166,27 @@
         <section id="portfolio" class="portfolio type-1 bg-pink padding_120">
             <div class="container">
 				<div class="section-title bottom_60">
-    					<span>OUR LATEST WORKS</span>
-    					<h2 class="title">We Design Experiences</h2>
+    					<span>My Latest Works</span>
+    					<h2 class="title">Featured</h2>
                         <div class="portfolio_filter top_15">
                             <ul>
-                                <li data-filter=".web" class="cbp-filter-item">Web Design </li>
-                                <li data-filter=".branding" class="cbp-filter-item">Branding Identity </li>
-                                <li data-filter=".photography" class="cbp-filter-item">Photography</li>
-                                <li data-filter=".mobile" class="cbp-filter-item">Mobile Applications</li>
-                                <li data-filter="*" class="cbp-filter-item cbp-filter-item-active site-btn top_15">All Works</li>
+                                <li data-filter="*" class="cbp-filter-item cbp-filter-item-active site-btn top_15" style="text-decoration: none;"><a href="https://github.com/turnermillsaps" target="_blank">All Works</a></li>
                             </ul>
                         </div>
 				</div>
                 <!--Portfolio Items-->  
                 <div id="grid-container" class="cbp cbp-l-grid-mosaic-projects cbp-caption-active cbp-caption-zoom cbp-ready">
                     <!-- Item -->
-                    <div class="cbp-item web video-portfolio wow fadeInUp" data-wow-delay="1s">
-                        <a href="https://www.youtube.com/watch?v=M-M3rdL_WLQ" class="cbp-lightbox">
+                    <div class="cbp-item wow fadeInUp" data-wow-delay="1s">
+                        <a href="https://react-checkers.vercel.app/" target="_blank" class="cbp-lightbox">
                             <figure>
-                                <img src="images/works/type-1/work-1.jpg" alt=""> 
+                                <img src="images/checkers.PNG" alt=""> 
                                 <figcaption>
                                     <div class="outline">
                                         <div class="table">
                                             <ul>
-                                                <li> <span>web design</span> </li>
-                                                <li><h3 class="title">Natural Squares</h3></li>
+                                                <li> <span>ReactJS/Redux</span> </li>
+                                                <li><h3 class="title">Checkers</h3></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -198,8 +203,8 @@
                                     <div class="outline">
                                         <div class="table">
                                             <ul>
-                                                <li> <span>branding</span> </li>
-                                                <li><h3 class="title">Branding Manuel</h3></li>
+                                                <li> <span>PostgreSQL/NodeJS</span> </li>
+                                                <li><h3 class="title">BlackJack</h3></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -207,111 +212,11 @@
                             </figure>
                         </a>
                     </div>
-                    <!-- Item -->
-                    <div class="cbp-item photography wow fadeInUp" data-wow-delay="0.5s">
-                        <a href="single-portfolio_02.html">
-                            <figure>
-                                <img src="images/works/type-1/work-3.jpg" alt=""> 
-                                <figcaption>
-                                    <div class="outline">
-                                        <div class="table">
-                                            <ul>
-                                                <li> <span>photography</span> </li>
-                                                <li><h3 class="title">Motorcycles</h3></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- Item -->
-                    <div class="cbp-item branding wow fadeInUp" data-wow-delay="0.9s">
-                        <a href="single-portfolio_03.html">
-                            <figure>
-                                <img src="images/works/type-1/work-4.jpg" alt=""> 
-                                <figcaption>
-                                    <div class="outline">
-                                        <div class="table">
-                                            <ul>
-                                                <li> <span>branding</span> </li>
-                                                <li><h3 class="title">Muse Metta</h3></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div> 
-                    <!-- Item -->
-                    <div class="cbp-item mobile wow fadeInUp" data-wow-delay="1.3s">
-                        <a href="images/works/type-1/work-5.jpg" class="cbp-lightbox">
-                            <figure>
-                                <img src="images/works/type-1/work-5.jpg" alt=""> 
-                                <figcaption>
-                                    <div class="outline">
-                                        <div class="table">
-                                            <ul>
-                                                <li> <span>mobile</span> </li>
-                                                <li><h3 class="title">Retro Party</h3></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                </div>
-                <!-- load more button -->
-                <div id="port-loadMore" class="cbp-l-loadMore-button top_120 bottom_120 padbot_30 wow fadeInUp" data-wow-delay="0.5s">
-                    <a href="portfolio-load-more/load-more.html" class="cbp-l-loadMore-link site-btn" rel="nofollow">Load More</a>
                 </div>
             </div> <!-- container end -->
             <div class="svg-wave">
                 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="248" viewBox="0 0 3600 248">
                   <path d="M3601,31.227S2736.31,201.97,1661,72.2C547.345-62.2,0,32.227,0,32.227V343H3602Z"/>
-                </svg>
-            </div> 
-        </section>
-
-        <!-- BLOG SECTION
-        ================================================== -->
-        <section id="blog" class="blog type-1">
-            <div class="container">
-                <div class="section-title padding_90 text-center">
-                    <span>OUR POSTS</span>
-                    <h2 class="title">Recent Blog Posts</h2>
-                </div>
-                <div class="row">
-                    <!-- blog 1 -->
-                    <a href="single-blog.html" class="col-md-4 single-blog lifestyle wow fadeInUp" data-wow-delay="0.8s">
-                        <img src="images/blog-1.jpg" alt="">
-                        <span class="category">LIFESTYLE</span>
-                        <h2 class="title">His boss would certainly come round with the doctor from the medical...</h2>
-                        <span class="date">02 March, 2018</span>
-                    </a>
-                    <!-- blog 2 -->
-                    <a href="single-blog.html" class="col-md-4 single-blog fashion wow fadeInUp" data-wow-delay="1.1s">
-                        <img src="images/blog-2.jpg" alt="">
-                        <span class="category">FASHION</span>
-                        <h2 class="title">Gregor then turned to look out the window at the dull weather.</h2>
-                        <span class="date">02 March, 2018</span>
-                    </a>
-                    <!-- blog 3 -->
-                    <a href="single-blog.html" class="col-md-4 single-blog event wow fadeInUp" data-wow-delay="1.4s">
-                        <img src="images/blog-3.jpg" alt="">
-                        <span class="category">EVENT</span>
-                        <h2 class="title">One morning, when Gregor Samsa woke from troubled dreams.</h2>
-                        <span class="date">02 March, 2018</span>
-                    </a>
-                </div> <!-- row end -->
-                <div class="col-md-12 text-center padding_90">
-                    <a href="blogs-1.html" class="site-btn wow fadeInUp" data-wow-delay="1.8s" data-wow-offset="-100"> View All </a>
-                </div>
-            </div>
-            <div class="svg-wave">
-                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="248" viewBox="0 0 3594 343">
-                  <path d="M-7,311.773S857.694,141.03,1933,270.8c1113.66,134.4,1661,39.972,1661,39.972V0H-8Z"/>
                 </svg>
             </div> 
         </section>
@@ -321,47 +226,18 @@
         <section id="contact" class="contact type-1 bg-pink">
             <div class="container">
                 <div class="section-title padding_90 text-center">
-                    <span>CONTACT US</span>
-                    <h2 class="title">Get In Touch</h2>
+                    <span>CONTACT ME</span>
+                    <h2 class="title">Get In Touch via Email</h2>
                 </div>
                 <!-- Contact Information -->
                 <div class="information col-md-8 offset-md-2">
                     <div class="row">
-                        <div class="col-md-4 col-sm-6 info text-center wow fadeInUp" data-wow-delay="0.9s">
-                            <i class="icon-phone"></i>
-                            <p>49 0216 514 25 25 <br> 0216 514 25 25</p>
-                        </div>
-                        <div class="col-md-4 col-sm-6 info text-center wow fadeInUp" data-wow-delay="1.3s">
-                            <i class="icon-map"></i>
-                            <p>1444 S. Alameda Street Los Angeles,<br> California 90021</p>
-                        </div>
                         <div class="col-md-4 col-sm-12 info text-center wow fadeInUp" data-wow-delay="1.7s">
                             <i class="icon-envelope"></i>
-                            <p>info@alberto.com <br> contact@alberto.com</p>
+                            <p>turnermillsaps.plp@gmail.com <br> tmillsaps@noblesys.com</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Contact Form -->
-                <form class="contact-form top_90 col-md-12 padding_90 wow fadeInUp" data-wow-delay="2.0s">
-                    <div class="col-md-8 offset-md-2">
-                        <div class="row">
-                            <!--Name-->
-                            <div class="col-md-6">
-                                <input id="con_name" name="con_name" class="form-inp requie" type="text" placeholder="Name">
-                            </div>
-                            <!--Email-->
-                            <div class="col-md-6">
-                                <input id="con_email" name="con_email" class="form-inp requie" type="text" placeholder="Email">
-                            </div>
-                            <div class="col-md-12">
-                                <!--Message-->
-                                <textarea name="con_message" id="con_message" class="requie" placeholder="How can we help you?" rows="8"></textarea>
-                                <button id="con_submit" class="site-btn top_30 pull-right" type="submit">Send a Message</button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
             </div> <!-- container end -->    
         </section>
 
