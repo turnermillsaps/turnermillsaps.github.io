@@ -165,7 +165,7 @@
 	================================================== -->
         <section id="portfolio" class="portfolio type-1 bg-pink padding_120">
             <div class="container">
-				<div class="section-title bottom_60">
+				<div class="section-title">
     					<span>My Latest Works</span>
     					<h2 class="title">Featured</h2>
                         <div class="portfolio_filter top_15">
@@ -173,8 +173,23 @@
                                 <li data-filter="*" class="cbp-filter-item cbp-filter-item-active site-btn top_15" style="text-decoration: none;"><a href="https://github.com/turnermillsaps" target="_blank">All Works</a></li>
                             </ul>
                         </div>
-				</div>
-                <!--Portfolio Items-->  
+                </div>
+                <!--Item-1 Description-->
+                <div id="item-descriptions" class="section-title wow fadeInUp" data-wow-delay="1s">
+                    <div>
+                        <h1 class="item-1-title">Checkers!</h1>
+                        <p class="item-1-description">
+                            Live Demo: <a href="https://react-checkers.vercel.app/" target="_blank">react-checkers.vercel.app</a><br>
+                            GitHub Repository: <a href="https://github.com/turnermillsaps/react-checkers" target="_blank">github.com/turnermillsaps/react-checkers</a><br>
+                            <br>
+                            A simple client-side game showcasing the tabletop game Checkers.<br>
+                            This was a solo project which utilized <b>React</b> and <b>Redux</b> for state game board and player state management.
+                            Though seemingly simple, Checkers offered a surprising amount of difficult problems to solve and
+                            the challenges I faced in this project earned me a solid foundation of understanding of the <b>above two</b> technologies. 
+                        </p>
+                    </div>
+                </div>
+                <!--Item-1 Image/Link-->                
                 <div id="grid-container" class="cbp cbp-l-grid-mosaic-projects cbp-caption-active cbp-caption-zoom cbp-ready">
                     <!-- Item -->
                     <div class="cbp-item wow fadeInUp" data-wow-delay="1s">
@@ -185,7 +200,7 @@
                                     <div class="outline">
                                         <div class="table">
                                             <ul>
-                                                <li> <span>ReactJS/Redux</span> </li>
+                                                <li> <span>React/Redux</span> </li>
                                                 <li><h3 class="title">Checkers</h3></li>
                                             </ul>
                                         </div>
@@ -194,24 +209,40 @@
                             </figure>
                         </a>
                     </div>
-                    <!-- Item -->
-                    <!-- <div class="cbp-item branding wow fadeInUp" data-wow-delay="1.4s">
-                        <a href="single-portfolio_01.html">
+                </div>
+                <!--Item-2 Description-->
+                <div id="item-descriptions" class="section-title wow fadeInUp" data-wow-delay="1s">
+                    <div>
+                        <h1 class="item-1-title">Blackjack!</h1>
+                        <p class="item-1-description">
+                            Live Demo: <a href="https://react-blackjack-eta.vercel.app/" target="_blank">react-blackjack-eta.vercel.app</a><br>
+                            Frontend GitHub Repository: <a href="https://github.com/turnermillsaps/react-blackjack" target="_blank">github.com/turnermillsaps/react-blackjack</a><br>
+                            Backend GitHub Repository: <a href="https://github.com/turnermillsaps/react-blackjack-server" target="_blank">github.com/turnermillsaps/react-blackjack-server</a><br>
+                            Collaborative full stack application featuring the popular casino game Blackjack!<br>
+                            My main contribution to this project was the was the <b>Express</b> server and <b>PostgreSQL</b> database configurations. Alon with NodeJS, 
+                            I used <b>Sequelize</b> to manage the database connection and migration, and deployed using <b>Heroku.</b>
+                        </p>
+                    </div>
+                </div>
+                <div id="grid-container" class="cbp cbp-l-grid-mosaic-projects cbp-caption-active cbp-caption-zoom cbp-ready">
+                    <!-- Item-2 Image/Link -->
+                    <div class="cbp-item wow fadeInUp" data-wow-delay="1s">
+                        <a href="single-portfolio_01.html" target="_blank" class="cbp-lightbox">
                             <figure>
-                                <img src="images/works/type-1/work-2.jpg" alt=""> 
+                                <img src="images/blackjack.PNG" alt=""> 
                                 <figcaption>
                                     <div class="outline">
                                         <div class="table">
                                             <ul>
                                                 <li> <span>PostgreSQL/NodeJS</span> </li>
-                                                <li><h3 class="title">BlackJack</h3></li>
+                                                <li><h3 class="title">Blackjack</h3></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </figcaption>
                             </figure>
                         </a>
-                    </div> -->
+                    </div>
                 </div>
             </div> <!-- container end -->
             <div class="svg-wave">
@@ -227,14 +258,25 @@
             <div class="container">
                 <div class="section-title padding_90 text-center">
                     <span>CONTACT ME</span>
-                    <h2 class="title">Get In Touch via Email</h2>
+                    <h2 class="title">Get In Touch</h2>
                 </div>
                 <!-- Contact Information -->
                 <div class="information col-md-8 offset-md-2 text-center">
                     <div class="row" style="justify-content: center;">
                         <div class="col-md-4 col-sm-12 info text-center wow fadeInUp" data-wow-delay="1.7s">
+                            <i class="devicon-linkedin-plain"></i>
+                            <p><a href="https://www.linkedin.com/in/turner-millsaps-545128152/" target="_blank">LinkedIn Profile</a></p>
+                        </div>
+                        <div class="col-md-4 col-sm-12 info text-center wow fadeInUp" data-wow-delay="1.7s">
                             <i class="icon-envelope"></i>
-                            <p>turnermillsaps.plp@gmail.com <br> tmillsaps@noblesys.com</p>
+                            <p>
+                                <a href="mailto:turnermillsaps.plp@gmail.com">turnermillsaps.plp@gmail.com</a><br>
+                                <a href="mailto:tmillsaps@noblesys.com">tmillsaps@noblesys.com</a><br> 
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-sm-12 info text-center wow fadeInUp" data-wow-delay="1.7s">
+                            <i class="devicon-github-plain"></i>
+                            <p><a href="https://github.com/turnermillsaps" target="_blank">GitHub Profile</a></p>
                         </div>
                     </div>
                 </div>

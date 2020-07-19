@@ -918,6 +918,21 @@ header.type-1 nav ul li.hassub .submenu li:last-child{
     color: white;
 }
 
+#item-descriptions {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 20px;
+}
+
+#item-descriptions h1 {
+    font-weight: 650;
+}
+
+#item-descriptions .item-1-description {
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
 .portfolio.type-1{
   position: relative;
   z-index: 1;
